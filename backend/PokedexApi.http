@@ -1,0 +1,13 @@
+@direccion = http://localhost:5201
+
+### Lista de 151 Pokémon
+GET {{direccion}}/getPokemones
+
+### Pikachu
+GET {{direccion}}/pokemon/25
+
+### Mew
+GET {{direccion}}/pokemon/151
+
+### Fuera de la primera generación: 404
+GET {{direccion}}/pokemon/152
